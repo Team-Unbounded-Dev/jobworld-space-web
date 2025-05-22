@@ -1,9 +1,10 @@
 export const JobworldColor = Object.freeze({
   Yellow: '#FFDD00',
 
-  Background: '#171717', 
-  Surface: '#262626',
-  Input: '#333333',
+  Background: '#17171C',
+  Surface: '#212128',
+  Input: '#18181C',
+  InputStroke: '#AAAAAC',
 
   White: '#FFFFFF',
   Black: '#000000',
