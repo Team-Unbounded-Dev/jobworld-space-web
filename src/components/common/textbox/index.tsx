@@ -1,13 +1,7 @@
 import * as S from './index.style';
 import { TextboxProps } from './index.props';
 
-const Textbox = ({ 
-    label, 
-    placeholder, 
-    value, 
-    type, 
-    onChange 
-}: TextboxProps) => {
+const Textbox = ({ label, placeholder, value, type, onChange }: TextboxProps) => {
     return (
         <S.Container>
             <S.Label>{ label }</S.Label>
