@@ -1,4 +1,4 @@
-export const Palette = Object.freeze({
+export const JobworldColor = Object.freeze({
   Yellow: '#FFDD00',
 
   Background: '#171717', 

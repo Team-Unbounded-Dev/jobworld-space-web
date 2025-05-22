@@ -1,4 +1,4 @@
-export const Text = Object.freeze({
+export const JobworldFont = Object.freeze({
     display: {
         display1: {
             fontFamily: "Pretendard",
