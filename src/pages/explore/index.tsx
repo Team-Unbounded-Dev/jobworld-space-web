@@ -1,6 +1,6 @@
 import * as S from './index.style';
 
-const Navbar = () => {
+const Explore = () => {
     return (
         <S.Container>
             <div></div>
@@ -8,4 +8,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Explore;

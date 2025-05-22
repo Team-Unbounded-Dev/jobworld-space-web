@@ -1,14 +1,18 @@
 import * as S from './index.style';
 import Header from '@/components/common/header';
 import Footer from '@/components/common/footer';
-import Navbar from '@/components/common/navbar';
+import NormalNavbar from '@/components/common/navbar/normal';
+import ClassUserNavbar from '@/components/common/navbar/class-user';
+import useUserRole from '@/hooks/role/useUserRole';
 import { Outlet } from 'react-router-dom';
 
 const Layouts = () => {
+    const role = useUserRole();
+
     return (
         <S.Container>
             <Header />
-            <Navbar />
+            { role === 'normal' ? <NormalNavbar /> : <ClassUserNavbar /> }
             <S.Content>
                 <Outlet />
             </S.Content>
