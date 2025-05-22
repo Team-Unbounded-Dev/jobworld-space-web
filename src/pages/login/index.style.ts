@@ -1,14 +1,5 @@
 import styled from "styled-components";
 
-const commonButtonStyle = `
-  width: 370px;
-  height: 45px;
-  border-radius: 8px;
-  font-weight: 500;
-  margin: 5px 0;
-  transition: all 0.2s ease;
-`
-
 export const Container = styled.div`
   width: 100vw;
   height: 100vh;
@@ -57,7 +48,12 @@ export const InputGroup = styled.div`
 `
 
 export const LoginButton = styled.button`
-  ${commonButtonStyle}
+  width: 370px;
+  height: 45px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin: 5px 0;
+  transition: all 0.2s ease;
   background-color: #FFDD00;
   border: 1px solid #CCA800;
   color: #18181C;
@@ -70,7 +66,10 @@ export const LoginButton = styled.button`
 `
 
 export const OauthButton = styled.button`
-  ${commonButtonStyle}
+  width: 370px;
+  height: 45px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
   border: 1px solid #ADADAD;
   display: flex;
   align-items: center;
