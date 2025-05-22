@@ -6,6 +6,7 @@ const commonButtonStyle = `
   border-radius: 8px;
   font-weight: 500;
   margin: 5px 0;
+  transition: all 0.2s ease;
 `
 
 export const Container = styled.div`
@@ -39,6 +40,20 @@ export const InputGroup = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  input {
+    outline: none;
+    border: 1px solid #4A4A57;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #3C3C49;
+    color: white;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      border-color: white;
+    }
+  }
 `
 
 export const LoginButton = styled.button`
@@ -46,6 +61,12 @@ export const LoginButton = styled.button`
   background-color: #FFDD00;
   border: 1px solid #CCA800;
   color: #18181C;
+
+  &:hover {
+    background-color: #d4b800;
+    border-color: #a88f00;
+    cursor: pointer;
+  }
 `
 
 export const OauthButton = styled.button`
@@ -56,6 +77,12 @@ export const OauthButton = styled.button`
   justify-content: center;
   background-color: #FFFFFF;
   margin-bottom: 40px;
+
+  &:hover {
+    background-color: #e0e0e0;
+    border-color: #7a7a7a;
+    cursor: pointer;
+  }
 `
 
 export const Divider = styled.div`
@@ -85,5 +112,9 @@ export const SignupRedirectButton = styled.button`
 
   span {
     color: #FFDD00;
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 `

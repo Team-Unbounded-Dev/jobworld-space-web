@@ -45,7 +45,7 @@ const Login = () => {
                 </S.OauthButton>
                 <S.SignupRedirectButton>
                     계정이 없다면
-                    <span onClick={ handleSignupRedirect }> 회원가입 하러 가기</span>
+                    <span onClick={ handleSignupRedirect }> 회원가입</span>
                 </S.SignupRedirectButton>
             </S.LoginBox>
         </S.Container>
