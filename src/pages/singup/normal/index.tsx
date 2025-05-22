@@ -1,6 +1,6 @@
 import * as S from './index.style';
 
-const StudentSignup = () => {
+const NormalSignup = () => {
     return (
         <S.Container>
             <div></div>
@@ -8,4 +8,4 @@ const StudentSignup = () => {
     );
 };
 
-export default StudentSignup;
+export default NormalSignup;
