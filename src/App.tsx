@@ -1,7 +1,7 @@
+import Provider from '@/components/common/provider';
+
 const App = () => {
-  return (
-    <div></div>
-  );
+    return <Provider />
 };
 
 export default App;
