@@ -1,4 +1,4 @@
-import Provider from '@/components/common/provider';
+import Provider from "@/components/common/provider";
 
 const App = () => {
     return <Provider />
