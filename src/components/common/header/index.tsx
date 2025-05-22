@@ -3,7 +3,7 @@ import * as S from './index.style';
 const Header = () => {
     return (
         <S.Container>
-            <div></div>
+            <div>헤더 영역</div>
         </S.Container>
     );
 };
