@@ -18,7 +18,7 @@ export interface NormalSignupRequest {
     emailVerificationCode: string;
 }
 
-export interface teacherSignupRequest {
+export interface TeacherSignupRequest {
     email: string;
     password: string;
     name: string;

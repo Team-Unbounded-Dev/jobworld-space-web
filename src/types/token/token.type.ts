@@ -1,3 +1,3 @@
-export interface NewAccessTokenResponse {
+export interface ReissueToken {
     accessToken: string;
 }
