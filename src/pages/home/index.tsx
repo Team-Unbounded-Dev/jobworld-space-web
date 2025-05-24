@@ -1,11 +1,11 @@
 import * as S from './index.style';
 
-const Browse = () => {
+const Home = () => {
     return (
         <S.Container>
-            <div>찾아보기 페이지 영역</div>
+            <div>탐색 페이지 영역</div>
         </S.Container>
     );
 };
 
-export default Browse;
+export default Home;
