@@ -1,9 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { GlobalStyle } from '@/design/global/global-style';
-import Layouts from '@/layouts';
+import { GlobalStyle } from '@/styles/global-style/global-style';
+import { paths } from '@/constants/paths/paths';
 import Login from '@/pages/login';
-import Explore from '@/pages/explore';
-import Browse from '@/pages/browse';
 
 
 const Router = () => {
@@ -11,12 +9,7 @@ const Router = () => {
         <BrowserRouter>
             <GlobalStyle />
             <Routes>
-                <Route path="/login" element={<Login />} />
-
-                <Route element={<Layouts />}>
-                    <Route path="/explore" element={<Explore />} />
-                    <Route path="/browse" element={<Browse />} />
-                </Route>
+                <Route path={ paths.login } element={ <Login /> } />
             </Routes>
         </BrowserRouter>
     );

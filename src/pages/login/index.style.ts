@@ -117,3 +117,12 @@ export const SignupRedirectButton = styled.button`
     cursor: pointer;
   }
 `
+
+export const EyeIcon = styled.div`
+  color: #ADADAD;
+  size: 10px;
+  position: absolute;
+  right: 604px;
+  top: 400px;
+  cursor: pointer;
+`

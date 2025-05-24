@@ -8,7 +8,7 @@ import {
 } from '@/types/auth/auth.type';
 import { ReissueToken } from '@/types/token/token.type';
 
-const SERVER_URL = process.env.VITE_SERVER_URL;
+const SERVER_URL = import.meta.env.VITE_SERVER_URL;
 
 export const Login = async ( loginData: LoginRequest ): Promise<LoginResponse> => {
     try {
