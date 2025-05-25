@@ -41,7 +41,7 @@ const Login = () => {
                         onChange={ onChange }
                     />
                     <S.EyeIcon onClick={ () => setShowPassword(!showPassword) }>
-                        { showPassword ? <Eye /> : <EyeOff /> }
+                        { showPassword ? <Eye size={20} /> : <EyeOff size={20} /> }
                     </S.EyeIcon>
                 </S.InputGroup>
                 <S.LoginButton onClick={ handleLogin }>로그인</S.LoginButton>

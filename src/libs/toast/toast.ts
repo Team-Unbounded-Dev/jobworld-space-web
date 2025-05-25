@@ -12,7 +12,6 @@ const Toast = (message: string, type: string): void => {
     case "INFO":
       toast.info(message, { position: 'top-right' });
       break;
-
     default:
       toast(message, { position: 'top-right' });
       break;
