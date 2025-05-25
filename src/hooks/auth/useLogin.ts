@@ -23,12 +23,21 @@ const useLogin = () => {
         }));
     };
 
+    const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === "Enter") {
+            handleLogin();
+        };
+    };
+
     const handleLogin = async () => {
         const { nickname, password } = loginData;
 
-        if ( !nickname || !password ) {
-            Toast("모든 내용을 입력해주세요!", "ERROR");
-            return;
+        if (!loginData.nickname) {
+            Toast("아이디를 입력해주세요!", "INFO");
+        };
+
+        if (!loginData.password) {
+            Toast("비밀번호를 입력해주세요!", "INFO");
         };
 
         try {
@@ -49,6 +58,7 @@ const useLogin = () => {
         loginData,
         onChange,
         handleLogin,
+        onKeyDown,
     };
 };
 
