@@ -122,6 +122,6 @@ export const EyeIcon = styled.div`
   color: #ADADAD;
   cursor: pointer;
   margin-left: 320px;
-  margin-top: -50px;
+  margin-top: -54px;
   margin-bottom: 30px;
 `

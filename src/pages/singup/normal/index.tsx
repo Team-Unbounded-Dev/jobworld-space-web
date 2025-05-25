@@ -3,7 +3,7 @@ import * as S from './index.style';
 const NormalSignup = () => {
     return (
         <S.Container>
-            <div></div>
+            <div>일반 계정 회원가입 영역</div>
         </S.Container>
     );
 };

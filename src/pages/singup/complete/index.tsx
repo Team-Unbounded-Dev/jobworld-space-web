@@ -3,7 +3,7 @@ import * as S from './index.style';
 const Complete = () => {
     return (
         <S.Container>
-            <div></div>
+            <div>회원가입 성공 페이지</div>
         </S.Container>
     );
 };
