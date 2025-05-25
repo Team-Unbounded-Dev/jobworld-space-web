@@ -121,7 +121,7 @@ export const SignupRedirectButton = styled.button`
 export const EyeIcon = styled.div`
   color: #ADADAD;
   cursor: pointer;
-  margin-left: 320px;
-  margin-top: -50px;
+  margin-left: 325px;
+  margin-top: -52px;
   margin-bottom: 30px;
 `
